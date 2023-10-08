@@ -1,0 +1,199 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display&family=Poppins:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display&family=Poppins:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Playfair Display', serif; */
+    /* color: black; */
+}
+.flex{
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+    padding:30px 70px 2px 70px ;
+    align-items: center;
+}
+.logo {
+    width: 150px;
+    padding-left: 5px;
+}
+.cartdiv{
+    padding-bottom: 10px;
+}
+.cart{
+    width: 30px;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 300;
+}
+#Bigtext {
+    position: relative;
+    top: 10%;
+    left: 4.5%;
+    color: white;       
+}
+.kidsworld {
+    background-image: url("assets/kw-background.png");
+    width: 100%;
+    height: 500px;
+    background-size: 100% 500px;
+    color: white;
+}
+/* .Books,.games,.Handlooms {
+    padding: 10px 20px 60px 50px;
+} */
+.Books,.Games,.Crafts{
+    justify-content: space-around;
+}
+.Books{
+    padding: 0px 66px;
+    justify-content: space-between;
+}
+.Books img{
+    width: 180px;
+}
+.Games img,.Crafts img{
+    width: 240px;
+}
+.Sideheading{
+    padding: 40px 0px 15px 70px;
+}
+.icon{
+    background-color: hsl(220,100%,69%);
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 300;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+.icon img{
+    width: 20px;
+}
+
+.space-between{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-between p {
+    font-weight: 900;
+    font-size: 18px;
+}
+h4 {
+    font-weight: lighter;
+    color: gray;
+    font-size: 14px;
+    padding: 8px 0px 18px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling footer  */
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+    padding: 0px 66px;
+    text-align:right;
+}
+#pic{
+    border-radius: 50%;
+    width: 160px;
+    background-color: aliceblue;
+    height:160px;
+    background-image: url(assets/Pic.png);
+    background-size: 100% 100%;
+    margin: 15px;
+}
+.Footertext{
+    color: rgb(151, 151, 151);
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    nav {
+        padding: 15px 20px; 
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 36px; 
+    }
+
+    #Bigtext {
+        top: 5%;
+        left: 0;
+        text-align: center; 
+    }
+
+    .kidsworld {
+        background-size: cover; /* Use cover for background-size to ensure the image covers the entire viewport */
+        height: 300px; 
+    }
+
+    .Books, .Games, .Crafts {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .Books, .Games, .Crafts .book, .game, .handcraft {
+        margin-bottom: 20px; 
+        padding: 25px;
+    }
+
+    .Books img, .Games img, .Crafts img {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    .icon {
+        flex-direction: row;
+        align-items: center;
+        /* padding: 5px;  */
+    }
+    
+    .space-between {
+        align-items: center; 
+    }
+
+    .space-between p {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+    footer {
+        padding: 20px; 
+        text-align: center;
+    }
+
+    #pic {
+        width: 100px; 
+        height: 100px;
+        margin: 10px;
+    }
+
+    .Footertext {
+        font-size: 12px;
+    }
+}
+
+
