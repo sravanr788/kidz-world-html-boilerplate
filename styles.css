@@ -1,12 +1,10 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display&family=Poppins:wght@600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display&family=Poppins:wght@300;600&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Playfair Display', serif; */
-    /* color: black; */
+    
 }
 .flex{
     display: flex;
@@ -43,9 +41,7 @@ h1 {
     background-size: 100% 500px;
     color: white;
 }
-/* .Books,.games,.Handlooms {
-    padding: 10px 20px 60px 50px;
-} */
+
 .Books,.Games,.Crafts{
     justify-content: space-around;
 }
@@ -144,7 +140,7 @@ footer {
     }
 
     .kidsworld {
-        background-size: cover; /* Use cover for background-size to ensure the image covers the entire viewport */
+        background-size: 100% 100%;
         height: 300px; 
     }
 
@@ -166,7 +162,9 @@ footer {
     .icon {
         flex-direction: row;
         align-items: center;
-        /* padding: 5px;  */
+        font-size: 18px; 
+        width: 80px;
+        height: 40px;
     }
     
     .space-between {
@@ -177,9 +175,6 @@ footer {
         font-size: 16px;
     }
 
-    h4 {
-        font-size: 12px;
-    }
     footer {
         padding: 20px; 
         text-align: center;
@@ -191,7 +186,7 @@ footer {
         margin: 10px;
     }
 
-    .Footertext {
+    .Footertext ,h4 {
         font-size: 12px;
     }
 }
