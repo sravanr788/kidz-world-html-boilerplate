@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display&family=Poppins:wght@300;600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Noto+Sans:ital@1&family=Poppins:wght@300;400&family=Roboto:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Noto+Sans:ital@1&family=Poppins:wght@300;400&family=Roboto:wght@700;900&family=Rubik:wght@600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +12,7 @@
 }
 nav{
     justify-content: space-between;
-    padding:30px 70px 2px 70px ;
+    padding:30px 50px 2px 70px ;
     align-items: center;
 }
 .logo {
@@ -19,7 +20,10 @@ nav{
     padding-left: 5px;
 }
 .cartdiv{
-    padding-bottom: 10px;
+    
+    padding: 0px 0px 10px 45px;
+    font-family: 'Roboto';
+    width: 220px;
 }
 .cart{
     width: 30px;
@@ -65,7 +69,8 @@ h1 {
     color: white;
     font-weight: 300;
     padding: 5px;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Rubik', sans-serif;
 }
 .icon img{
     width: 20px;
@@ -74,11 +79,13 @@ h1 {
 .space-between{
     justify-content: space-between;
     align-items: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 .space-between p {
     font-weight: 900;
     font-size: 18px;
+    font-weight: bolder;
 }
 h4 {
     font-weight: lighter;
@@ -88,7 +95,7 @@ h4 {
     font-family: 'Poppins', sans-serif;
 }
 h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* Styling footer  */
@@ -135,8 +142,9 @@ footer {
 
     #Bigtext {
         top: 5%;
-        left: 0;
-        text-align: center; 
+        left: 4%;
+        text-align: left; 
+        width: 140px;
     }
 
     .kidsworld {
@@ -148,10 +156,23 @@ footer {
         flex-direction: column; 
         align-items: center; 
     }
-
+    .Sideheading{
+        padding: 40px 0px 15px 105px;
+    }
+    h3,h4{
+        text-align: center;
+    }
+    .cart{
+        width: 40px;
+    }
+    .cartdiv{
+        padding-right: 0px;
+        width: 190px;
+    }
     .Books, .Games, .Crafts .book, .game, .handcraft {
         margin-bottom: 20px; 
         padding: 25px;
+       
     }
 
     .Books img, .Games img, .Crafts img {
@@ -169,10 +190,11 @@ footer {
     
     .space-between {
         align-items: center; 
+        justify-content: space-evenly;
     }
 
     .space-between p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     footer {
@@ -186,8 +208,10 @@ footer {
         margin: 10px;
     }
 
-    .Footertext ,h4 {
+   
+    .Footertext {
         font-size: 12px;
+        text-align: right;
     }
 }
 
