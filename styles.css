@@ -60,7 +60,7 @@ h1 {
     width: 240px;
 }
 .Sideheading{
-    padding: 40px 0px 15px 70px;
+    padding: 40px 0px 15px 60px;
 }
 .icon{
     background-color: hsl(220,100%,69%);
@@ -115,7 +115,7 @@ footer {
     background-size: 100% 100%;
     margin: 15px;
 }
-.Footertext{
+#Footertext{
     color: rgb(151, 151, 151);
     font-size: 14px;
     font-weight: lighter;
@@ -201,21 +201,32 @@ footer {
         font-size: 20px;
     }
 
-    footer {
+    .footer {
         padding: 20px; 
+        
+        /* text-align: right; */
+    }
+    h2{
         text-align: center;
+    }
+    .footer>p{
+        text-align: right;
+    }
+    .footer  h3{
+        text-align: right;
     }
 
     #pic {
-        width: 100px; 
-        height: 100px;
-        margin: 10px;
+        width: 110px; 
+        height: 110px;
+        margin: 14px;
     }
 
    
-    .Footertext {
-        font-size: 12px;
-        text-align: right;
+    #Footertext {
+        font-size: 14px;
+        /* padding-right: 4px;   */
+        color: white;
     }
 }
 
