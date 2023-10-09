@@ -157,7 +157,7 @@ footer {
         align-items: center; 
     }
     .Sideheading{
-        padding: 40px 0px 15px 105px;
+        padding: 40px 0px 15px 88px;
     }
     h3,h4{
         text-align: center;
@@ -183,14 +183,18 @@ footer {
     .icon {
         flex-direction: row;
         align-items: center;
-        font-size: 18px; 
+        font-size: 22px; 
         width: 80px;
         height: 40px;
+        padding: 5px;
     }
+  
     
     .space-between {
         align-items: center; 
-        justify-content: space-evenly;
+        justify-content: space-between;
+        /* padding-right: 12px; */
+        padding: 0px 10px 0px 12px;
     }
 
     .space-between p {
