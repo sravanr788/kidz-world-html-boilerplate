@@ -60,7 +60,7 @@ h1 {
     width: 240px;
 }
 .Sideheading{
-    padding: 40px 0px 15px 60px;
+    padding: 40px 0px 15px 70px;
 }
 .icon{
     background-color: hsl(220,100%,69%);
@@ -69,7 +69,6 @@ h1 {
     color: white;
     font-weight: 300;
     padding: 5px;
-    /* font-family: 'Poppins', sans-serif; */
     font-family: 'Rubik', sans-serif;
 }
 .icon img{
@@ -116,7 +115,7 @@ footer {
     margin: 15px;
 }
 #Footertext{
-    color: rgb(151, 151, 151);
+    color: white;
     font-size: 14px;
     font-weight: lighter;
     font-family: 'Poppins', sans-serif;
@@ -133,7 +132,7 @@ footer {
     }
 
     .logo {
-        width: 100px;
+        width: 180px;
     }
 
     h1 {
@@ -157,7 +156,9 @@ footer {
         align-items: center; 
     }
     .Sideheading{
-        padding: 40px 0px 15px 88px;
+        padding: 40px 0px 0px 0px;
+        font-size: 35px;
+        text-align: center;
     }
     h3,h4{
         text-align: center;
@@ -169,12 +170,17 @@ footer {
         padding-right: 0px;
         width: 190px;
     }
-    .Books, .Games, .Crafts .book, .game, .handcraft {
+    .Books, .Games, .book, .game {
         margin-bottom: 20px; 
-        padding: 25px;
-       
+        padding: 20px;  
     }
-
+    .Crafts , .handcraft ,.Games, .game{
+        margin-bottom: 20px; 
+        padding: 10px;  
+    }
+    .book{
+        padding-bottom: 40px;
+    }
     .Books img, .Games img, .Crafts img {
         width: 100%; 
         padding: 10px;
