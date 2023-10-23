@@ -15,6 +15,9 @@ nav{
     padding:30px 50px 2px 70px ;
     align-items: center;
 }
+.distance {
+    padding-top: 20px;
+}
 .logo {
     width: 150px;
     padding-left: 5px;
@@ -123,6 +126,10 @@ footer {
 
 
 @media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0  ;
+    }
     body {
         font-size: 14px;
     }
@@ -233,5 +240,32 @@ footer {
         color: white;
     }
 }
+@media (max-width: 1024px) and (min-width: 768px){
+    *{
+        margin: 0;
+        padding: 0  ;
+    }
+    .Books , .Games , .Crafts {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .space-between {
+        align-items: center; 
+        justify-content: space-between;
+        padding: 0px 10px 0px 12px;
+    }
+    .icon {
+        flex-direction: row;
+        align-items: center;
+        font-size: 22px; 
+        width: 80px;
+        height: 40px;
+        padding: 5px;
+    }
+    .Books img, .Games img, .Crafts img {
+        width: 100%; 
+        padding: 10px;
+    }
+} 
 
 

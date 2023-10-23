@@ -15,7 +15,7 @@
         </div>
         <div class="flex cartdiv">
             <img class="cart" src="assets/cart-icon.png" alt="">
-            <h3 > <strong> Cart items (0) </strong> </h3>
+            <h3 > <strong> Cart items (<span id="item-value">0</span>) </strong> </h3>
         </div>
     </nav>
 
@@ -24,7 +24,7 @@
             <h1>Shop.</h1>
             <h1>Have Fun.</h1>
             <h1>Repeat.</h1>
-            <h3>#NewAndNow</h3>
+            <h3 class="distance">#NewAndNow</h3>
         </div>
 
     </div>
@@ -216,8 +216,8 @@
 
 
     <div class="Handlooms">
-        <div class="Sideheading">
-            <h2>Handmade with Love </h2>
+        <div>
+            <h2 class="Sideheading">Handmade with Love </h2>
         </div>
         <div class="Crafts flex">
             <div class="handcraft">
@@ -282,7 +282,7 @@
                 <div class="flex space-between">
                     <p>$18.49</p>
                     <div class="icon flex">
-                        <h6>Add</h6>
+                        <h6 id="addbtn">Add</h6>
                         <img src="assets/cart-icon-white.png" alt="">
                     </div>
                 </div>
@@ -306,5 +306,5 @@
         </div>
     </footer>
 </body>
-
+<script src="app.js"></script>
 </html>
